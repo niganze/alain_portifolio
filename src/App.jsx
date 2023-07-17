@@ -1,17 +1,14 @@
-import './App.css'
+import "./App.css";
+import Header from "./pages/Header";
 
 function App() {
- 
   return (
-    <>
-   
-      <h1>Vite + React</h1>
-  
-      <p className="read-the-docs">
-       this is my app
-      </p>
-    </>
-  )
+    <div>
+      {/* <h1>Vite + React</h1>
+      <p className="read-the-docs">this is my app</p> */}
+      <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;
