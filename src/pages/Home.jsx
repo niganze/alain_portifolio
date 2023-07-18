@@ -1,7 +1,7 @@
 // import React from "react";
 import "../css/Home.css";
-import LOGO from "../ASSETS/IMG_235.jpeg";
-import ME from "../ASSETS/IMG_235.jpeg";
+import LOGO from "../assets/IMG_235.jpeg";
+import ME from "../assets/IMG_235.jpeg";
 function Home() {
   return (
     <div>
