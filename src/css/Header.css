@@ -4,7 +4,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: #6ab2fd;
+  color: whitesmoke;
 }
 
 /* Logo styling */
@@ -19,6 +20,9 @@
   width: 30px;
   height: 30px;
   margin-right: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  color: yellowgreen;
 }
 
 /* Navbar links */
@@ -28,7 +32,7 @@
 }
 
 .links a {
-  color: #333;
+  color: white;
   text-decoration: none;
   transition: color 0.3s ease;
 }

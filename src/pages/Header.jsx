@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BB from "../assets/images.png";
+import BB from "../assets/IMG_0158.jpeg";
 import "../css/Header.css";
 
 function Header() {
@@ -23,7 +23,7 @@ function Header() {
           <a href="#project">PROJECTS</a>
           <a href="#contact">CONTACT</a>
           <a href="#blog">BLOG</a>
-        
+          <a href="#pages">LOGIN</a>
           <a href="#pages">SIGN UP</a>
         </div>
         <button
