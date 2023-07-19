@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Features from "./pages/Features";
 import Header from "./pages/Header";
@@ -18,6 +19,7 @@ function App() {
       <Project />
       <Features/>
       <Contact/>
+      <Blog />
     </div>
   );
 }
