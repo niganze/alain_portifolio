@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./pages/About";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
+import Qualification from "./pages/Qualification";
 import Services from "./pages/Services";
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Services />
       <About />
+      <Qualification />
     </div>
   );
 }
