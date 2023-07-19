@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./pages/About";
+import Features from "./pages/Features";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Qualification />
       <Project />
+      <Features/>
     </div>
   );
 }
