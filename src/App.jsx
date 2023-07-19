@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Features from "./pages/Features";
+import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
@@ -20,6 +21,7 @@ function App() {
       <Features/>
       <Contact/>
       <Blog />
+      <Footer/>
     </div>
   );
 }
