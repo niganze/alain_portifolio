@@ -6,7 +6,7 @@ import BBV from "../assets/web_design.jpg";
 import "../css/Services.css";
 function Services() {
   return (
-    <div>
+    <div className="back">
       <div className="container_serivice" id="service">
         <div className="services">
           <h2>Have a Look at my Services</h2>

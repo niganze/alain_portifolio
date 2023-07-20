@@ -118,12 +118,11 @@ function About() {
               niganzealain100@gmail.com
             </p>
             <button>
-              {"  kn "}
+              {""}
               <a
                 href="#contact"
-                style={{ color: "inherit", textDecoration: "inherit" }}
-              >
-                HIRE ME
+                style={{ color: "inherit", textDecoration: "inherit" }}>
+                Hire me
               </a>
             </button>
           </div>
