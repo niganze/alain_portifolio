@@ -1,58 +1,4 @@
-/* 
 .ContactForg {
-  
-}
-
-.ContactForg h5 {
-
-}
-
-.form_container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 30px;
-}
-
-.form {
-  flex-basis: 45%;
-}
-
-.mesasge {
-  flex-basis: 50%;
-}
-
-label {
-  display: flex;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-
-}
-
-button {
-  background-color: #5f98b3;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background-color: #0062cc;
-} */
-
-
-.ContactForg {
- 
   background-color:  white;
   padding: 70px ;
   text-align: center;
@@ -94,7 +40,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+  width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #5f98b3;
@@ -102,19 +48,20 @@ textarea {
   font-size: 16px;
 }
 
-button {
+.ContactForg button {
   background-color: #5f98b3;
-  color: #5f98b3;
+  color: black;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
-button:hover {
-  background-color: black;
+.ContactForg button:hover {
+  background-color: #5f98b3;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,4 +1,4 @@
-// import React from "react";
+
 import "../css/Footer.css";
 import { AiFillFacebook } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
@@ -18,7 +18,7 @@ function Footer() {
       <div className="About">
         <h5 className="logo">
           <FcHome />
-          <i>ALAIN GN</i>
+          <i>KNZ IGN</i>
         </h5>
         <ul>
           <li>
@@ -53,12 +53,12 @@ function Footer() {
       <div className="Courses">
         <h5>
           <FcAbout />
-          About ME{" "}
+          About me{" "}
         </h5>
-        <h6>
+        <small className="small">
           I am a web developer with experience in ReactJS, Node.js, and MongoDB.
           Check out my portfolio to learn more about my skills and projects.
-        </h6>
+        </small>
       </div>
       <div className="Services ">
         <h5>
@@ -66,21 +66,21 @@ function Footer() {
           <FcServiceMark />
           Quick Links{" "}
         </h5>
-        <ul>
+        <ul className="qiuck_link">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#service">Services</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -90,11 +90,11 @@ function Footer() {
           footer-links
         </h5>
         <ul>
-          <li>
+          <li  onClick={Symbol}>
             <a href="#">Privacy Policy</a>
           </li>
           <li>
-            <a href="#">Terms of Use</a>
+            <a href="#">Terms of User</a>
           </li>
         </ul>
       </div>
@@ -109,6 +109,7 @@ function Footer() {
           <AiFillTwitterCircle />
         </div>
       </div>
+  
     </div>
   );
 }
