@@ -1,6 +1,7 @@
 import { useState } from "react";
-import BB from "../assets/IMG_0158.jpeg";
+import BB from "../assets/images.png";
 import "../css/Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,17 +15,18 @@ function Header() {
       <div className="nav_container">
         <div className="logo">
           <img src={BB} alt="connection failed" />
-          <span>KNZ IGN</span>
+          <span>TeckPorKnz</span>
         </div>
         <div className={`links ${isOpen ? "open" : ""}`}>
-          <a href="#home">HOME</a>
-          <a href="#service">SERVICE</a>
-          <a href="#about">ABOUT</a>
-          <a href="#project">PROJECTS</a>
-          <a href="#contact">CONTACT</a>
-          <a href="#blog">BLOG</a>
-          <a href="#pages">LOGIN</a>
-          <a href="#pages">SIGN UP</a>
+          <a href="#home">Home</a>
+          <a href="#service">Service</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+          <a href="#contact">Contact</a>
+          <a href="#blog">Blog</a>
+          <Link to ="./dashboard">Login</Link>
+  
+          <a href="#pages">Be My partner</a>
         </div>
         <button
           className={`toggle-bar ${isOpen ? "open" : ""}`}
