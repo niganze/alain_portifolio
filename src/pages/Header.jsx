@@ -26,7 +26,7 @@ function Header() {
           <a href="#blog">Blog</a>
           <Link to ="./dashboard">Login</Link>
   
-          <a href="#pages">Be My partner</a>
+          <a href="#sign_up">Be My partner</a>
         </div>
         <button
           className={`toggle-bar ${isOpen ? "open" : ""}`}

@@ -1,5 +1,5 @@
 import "./App.css";
-// import Dashnavbar from "./dashboard/desboardpage/Dashnavbar";
+import Dashnav from "./dashboard/Dashnav";
 import Generalsite from "./pages/Generalsite";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
@@ -8,7 +8,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Generalsite />}/>
-          {/* <Route path="/dashboard" element={< Das/>}/> */}
+          <Route path="/dashboard"element={<Dashnav/>} />
+        
         </Routes>
       </BrowserRouter>
     </div>

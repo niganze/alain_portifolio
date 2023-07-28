@@ -1,0 +1,28 @@
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: #5386ca;
+  color: #fff;
+  /* padding: 1rem; */
+}
+
+.dashboard-logo h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.dashboard-icons {
+  display: flex;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.icon:first-child {
+  margin-left: 0;
+}
