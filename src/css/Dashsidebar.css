@@ -1,0 +1,39 @@
+.dashboard-sidebar {
+  width: 180px;
+  background-color: #f0ebeb;
+  color: #333;
+  padding: 1rem;
+  height: 100vh;
+  overflow: auto;
+
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.sidebar-item span {
+  font-size: 1rem;
+}
+
+.sidebar-item:hover {
+  background-color: #f1f1f1;
+}
+.datas{
+position: relative;
+top: 4.25rem ;
+background-color: #F5F5F5;
+width: 82vw;
+height: 80%;
+position: absolute;
+right: 0.938rem;
+padding-top: 0vh;
+}

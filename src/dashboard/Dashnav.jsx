@@ -1,12 +1,17 @@
-
+import { FaUserCircle, FaBell, FaSearch } from "react-icons/fa";
 import "../css/DashboardNavbar.css";
-import { FaUserCircle, FaBell } from "react-icons/fa";
-
+import LOHO from "../assets/images.png";
 const DashboardNavbar = () => {
   return (
     <div className="dashboard-navbar">
       <div className="dashboard-logo">
-        <h3>Your Dashboard Title</h3>
+        <img src={LOHO} alt="connection failed" />
+        <span>TeckPorKnz</span>
+      </div>
+
+      <div className="dashboard-search">
+        <input type="text" placeholder="Search" />
+        <FaSearch className="search-icon" />
       </div>
 
       <div className="dashboard-icons">
