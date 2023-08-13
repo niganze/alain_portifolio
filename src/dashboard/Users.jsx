@@ -1,7 +1,7 @@
 function Users() {
   return (
     <div>
-      this is my     who    become of my partnere users
+          this is my     who    beco
 
     </div>
   )

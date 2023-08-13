@@ -26,25 +26,26 @@
 .dashboard-search {
   display: flex;
   align-items: center;
-  background-color: #fff;
-  border-radius: 1px;
+  background-color: #f7f4f4;
+  border-radius: 1rem ;
   padding: 0.2rem 0.5rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 .dashboard-search input[type="text"] {
-  border: none;
-  outline: none;
+  border: 2rem;
+  outline: 10px;
   margin-right: 0.5rem;
   font-size: 0.1rem;
-  color: #333;
+  color: white;
   background-color: transparent;
-  width: 120px;
+  width: 120px; 
 }
 
 .search-icon {
   font-size: 1.2rem;
   cursor: pointer;
+  color: #6ab2fd;
 }
 
 .dashboard-icons {

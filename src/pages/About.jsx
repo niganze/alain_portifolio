@@ -1,4 +1,4 @@
-// import React from "react";
+
 import "../css/About.css";
 import OO from "../assets/IMG_180.jpeg";
 import { SiDesignernews } from "react-icons/si";
@@ -131,5 +131,4 @@ function About() {
     </div>
   );
 }
-
 export default About;
