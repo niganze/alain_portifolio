@@ -46,9 +46,9 @@
     margin-top: 20px;
   }
   
-  .join {
-    font-size: 1rem;
-    border: none;
+   .join-container .join {
+    font-size: 1.4rem;
+    border: 2px;
     background-color: #6ab2fd;
     color: #fff;
     cursor: pointer;

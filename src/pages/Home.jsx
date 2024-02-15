@@ -31,7 +31,7 @@ function Home() {
                 >
                   let now talk
                 </a>
-              </button>
+              </button   >
               <button className="join">Download cv</button>
             </div>
           </div>

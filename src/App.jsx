@@ -4,7 +4,7 @@ import Generalsite from "./pages/Generalsite";
 function App() {
   return (
     <div>
-  <Generalsite />
+    <Generalsite />
          
     </div>
   );
